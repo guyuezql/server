@@ -21,6 +21,7 @@ class Null_flag
 {
 protected:
   bool m_is_null;
+  Null_flag() { }
 public:
   bool is_null() const { return m_is_null; }
   Null_flag(bool is_null) :m_is_null(is_null) { }
